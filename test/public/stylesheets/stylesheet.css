@@ -97,3 +97,7 @@
 .tahoma {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.monospace {
+  font-family: "DejaVu Sans Mono", Menlo, Monaco, Consolas, Courier, monospace;
+}
