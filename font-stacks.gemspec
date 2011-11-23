@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   # Gem files
   # These are the files that get distributated in the gem
   s.files = ["README.mdown"]
+  s.files = ["CHANGELOG.mdown"]
   s.files += Dir.glob("lib/**/*.*")
   s.files += Dir.glob("stylesheets/**/*.*")
 
