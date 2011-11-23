@@ -3,7 +3,7 @@ Compass::Frameworks.register("font-stacks", :path => "#{File.dirname(__FILE__)}/
 
 module FontStacks
   
-  VERSION = "0.1.2"
-  DATE = "2011-11-22"
+  VERSION = "0.1.3"
+  DATE = "2011-11-23"
 
 end

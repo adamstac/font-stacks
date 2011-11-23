@@ -10,7 +10,9 @@ Font Stacks is a Sass/Compass extension that provides Sass functions to easily u
 
 ## Usage
 
-The usage is simple. Here's an example:
+The usage is simple. Here are two examples:
+
+### Function Based Usage
 
     // Long-form
     .foo {
@@ -27,9 +29,33 @@ The usage is simple. Here's an example:
       font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
     }
 
-As you can see, you simply pass the name of the font-stack to the `font-family()` function or its shorthand counterpart `ff()`. Simple.
+### Mixin Based Usage
 
-Review [the core Sass file](https://github.com/adamstac/font-stacks/blob/master/stylesheets/_font-stacks.scss) for a full list of supported font-stacks. Feel free to fork and contribute.
+    // Long-form
+    .foo {
+      @include font-family("Helvetica Neue");
+    }
+
+    // Shorthand
+    .foo {
+      @include ff("Helvetica Neue");
+    }
+    
+    // Resulting CSS
+    .foo {
+      font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+    }
+
+As you can see, you simply pass the name of the font-stack to the `font-family()` function or its shorthand counterpart `ff()`, or to the `font-family()` mixin or its shorthand counterpart `ff()`. Simple.
+
+Review [Font Stacks function code](https://github.com/adamstac/font-stacks/blob/master/stylesheets/font-stacks/_function.scss) for a full list of supported font-stacks. Feel free to fork and contribute.
+
+### Defaults
+
+If you'd like to set the default font-family, or override the "Monospace" font-family, I have provided two vars you can set.
+
+    $default-font-family
+    $default-monospace
 
 ## Credits and special thanks
 
