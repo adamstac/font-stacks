@@ -160,6 +160,7 @@
   //
 
   @else {
+    @warn "The font-family you specified wasn't found. The $default-font-family has been returned instead.";
     @return font-family($default-font-family);
   }
 

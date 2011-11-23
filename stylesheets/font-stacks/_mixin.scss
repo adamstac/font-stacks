@@ -156,6 +156,7 @@
   //
   
   @else {
+    @warn "The font-family you specified wasn't found. The $default-font-family has been returned instead.";
     font-family: font-family($default-font-family);
   }
 
