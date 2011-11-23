@@ -1,0 +1,167 @@
+@mixin font-family($family) {
+  
+  //
+  // Serif
+  //
+
+  // BASKERVILLE ( 88.60% on Mac, 49.10% on Windows)
+  @if $family == "Baskerville" {
+    font-family: font-family($family);
+  }
+
+  // BIG CASLON (85.10% on Mac)
+  @else if $family == "Big Caslon" {
+    font-family: font-family($family);
+  }
+  
+  // BODONI (47.89% on Windows)
+  @else if $family == "Bodoni MT" {
+    font-family: font-family($family);
+  }
+
+  // BOOK ANTIQUA (86.09% on Mac)
+  @else if $family == "Book Antiqua" {
+    font-family: font-family($family);
+  }
+  
+  // CAMBRIA (54.51% on Windows)
+  @else if $family == "Cambria" {
+    font-family: font-family($family);
+  }
+
+  // CONSTANTIA (53.81% on Windows)
+  @else if $family == "Constantia" {
+    font-family: font-family($family);
+  }
+
+  // DIDOT (87.72% on Mac)
+  @else if $family == "Didot" {
+    font-family: font-family($family);
+  }
+
+  // GARAMOND (23.84% on Mac, 86.24% on Windows)
+  @else if $family == "Garamond" {
+    font-family: font-family($family);
+  }
+
+  // GOUDY OLD STYLE (51.30% on Windows)
+  @else if $family == "Goudy Old Style" {
+    font-family: font-family($family);
+  }
+
+  // HOEFLER TEXT (88.70% on Mac, 1.16% on Windows)
+  @else if $family == "Hoefler Text" {
+    font-family: font-family($family);
+  }
+
+  // LUCIDA BRIGHT (64.90% on Mac, 33.84% on Windows) - huge x-height
+  @else if $family == "Lucida Bright" {
+    font-family: font-family($family);
+  }
+
+  // PALATINO (79.71% on Mac, 98.04% on Windows)
+  @else if $family == "Palatino" {
+    font-family: font-family($family);
+  }
+
+  //
+  // Sans-serif
+  //
+
+  // CALIBRI (54.76% on Windows)
+  @else if $family == "Calibri" {
+    font-family: font-family($family);
+  }  
+
+  // CANDARA (54.31% on Windows)
+  @else if $family == "Candara" {
+    font-family: font-family($family);
+  }
+
+  // FRANKLIN GOTHIC MEDIUM (97.89% on Windows)
+  @else if $family == "Franklin Gothic Medium" {
+    font-family: font-family($family);
+  } 
+
+  // FUTURA (91.01% on Mac)
+  @else if $family == "Futura" {
+    font-family: font-family($family);
+  }
+
+  // GENEVA (98.84% on Mac)
+  @else if $family == "Geneva" {
+    font-family: font-family($family);
+  }
+  
+  // GILL SANS (91.52% on Mac, 51.74% on Windows)
+  @else if $family == "Gill Sans" {
+    font-family: font-family($family);
+  }
+
+  // HELVETICA NEUE (94.74% on Mac)
+  @else if $family == "Helvetica Neue" {
+    font-family: font-family($family);
+  }
+  
+  // Alias to "Helvetica Neue"
+  @else if $family == "Helvetica" {
+    font-family: font-family("Helvetica Neue");
+  }
+  
+  // LUCIDA GRANDE (99.13% on Mac, 98.25% on Windows)
+  @else if $family == "Lucida Grande" {
+    font-family: font-family($family);
+  }
+
+  // OPTIMA (90.14% on Mac)
+  @else if $family == "Optima" {
+    font-family: font-family($family);
+  }
+
+  // SEGOE (45.04% on Windows)
+  @else if $family == "Segoe" {
+    font-family: font-family($family);
+  }
+
+  // TAHOMA (99.30% on Windows)
+  @else if $family == "Tahoma" {
+    font-family: font-family($family);
+  }
+
+  // TREBUCHET (94.20% on Mac, 99% on Windows)
+  @else if $family == "Trebuchet MS" {
+    font-family: font-family($family);
+  }
+
+  // VERDANA (96.81% on Mac, 99.40% on Windows)
+  @else if $family == "Verdana" {
+    font-family: font-family($family);
+  }
+  
+  //
+  // Monospace
+  //
+  
+  @else if $family == "Monospace" {
+    font-family: font-family($family);
+  }
+
+  // Alias to "Monospace"
+  @else if $family == "monospace" {
+    font-family: font-family("Monospace");
+  }
+
+  //
+  // Else, catch all, fail safe
+  //
+  
+  @else {
+    font-family: font-family($default-font-family);
+  }
+
+}
+
+// Shorthand counterpart
+@mixin ff($family) {
+  @include font-family($family);
+}

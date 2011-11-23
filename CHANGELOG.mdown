@@ -1,3 +1,16 @@
+# 0.1.3
+
+* [NEW] Added $default-monospace var to override the default monospace.
+* [NEW] Added support for the font-family() `@mixin` as well as its shortened counterpart ff().
+* [NEW] Added $default-font-family var. Defaults to "Helvetica".
+* [CHANGED] Updated the @else in both the function/mixin to return using $default-font-family.
+* [CHANGED] Since we now have a function and a mixin, they are their own partials now. @import and usage remains the same.
+* [FIXED] Updated the Baskerville old face to Baskerville Old Face.
+
 # 0.1.0 - 0.1.2
 
 * Initial version ready for development and testing (likely to be solid enough for 1.0.0)
+
+---
+
+Keys: [NEW] [CHANGED] [FIXED]

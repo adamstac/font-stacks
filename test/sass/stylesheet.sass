@@ -1,3 +1,5 @@
+// $default-monospace: Menlo, "DejaVu Sans Mono", Monaco, Consolas, Courier, monospace
+
 // Compass extension
 @import "../../stylesheets/font-stacks"
 
@@ -6,64 +8,102 @@
 //
 
 .garamond
-  font-family: ff(Garamond)
+  font-family: font-family("Garamond")
+  +font-family("Garamond")
 .lucida-bright
-  font-family: ff("Lucida Bright")
+  font-family: font-family("Lucida Bright")
+  +font-family("Lucida Bright")
 .palatino
-  font-family: ff(Palatino)
+  font-family: font-family("Palatino")
+  +font-family("Palatino")
 .big-caslon
-  font-family: ff("Big Caslon")
+  font-family: font-family("Big Caslon")
+  +font-family("Big Caslon")
 .didot
-  font-family: ff(Didot)
+  font-family: font-family("Didot")
+  +font-family("Didot")
 .baskerville
-  font-family: ff(Baskerville)
+  font-family: font-family("Baskerville")
+  +font-family("Baskerville")
 .hoefler-text
-  font-family: ff("Hoefler Text")
+  font-family: font-family("Hoefler Text")
+  +font-family("Hoefler Text")
 .bodoni-mt
-  font-family: ff("Bodoni MT")
+  font-family: font-family("Bodoni MT")
+  +font-family("Bodoni MT")
 .goudy-old-style
-  font-family: ff("Goudy Old Style")
+  font-family: font-family("Goudy Old Style")
+  +font-family("Goudy Old Style")
 .constantia
-  font-family: ff(Constantia)
+  font-family: font-family("Constantia")
+  +font-family("Constantia")
 .cambria
-  font-family: ff(Cambria)
+  font-family: font-family("Cambria")
+  +font-family("Cambria")
 .book-antiqua
-  font-family: ff("Book Antiqua")
+  font-family: font-family("Book Antiqua")
+  +font-family("Book Antiqua")
 
 //
 // Sans-serif
 //
 
 .optima
-  font-family: ff(Optima)
+  font-family: font-family("Optima")
+  +font-family("Optima")
 .futura
-  font-family: ff(Futura)
+  font-family: font-family("Futura")
+  +font-family("Futura")
 .gill-sans
-  font-family: ff("Gill Sans")
+  font-family: font-family("Gill Sans")
+  +font-family("Gill Sans")
 .trebuchet-ms
-  font-family: ff("Trebuchet MS")
+  font-family: font-family("Trebuchet MS")
+  +font-family("Trebuchet MS")
 .helvetica-neue
-  font-family: ff("Helvetica Neue")
+  font-family: font-family("Helvetica Neue")
+  +font-family("Helvetica Neue")
 .verdana
-  font-family: ff(Verdana)
+  font-family: font-family("Verdana")
+  +font-family("Verdana")
 .lucida-grande
-  font-family: ff("Lucida Grande")
+  font-family: font-family("Lucida Grande")
+  +font-family("Lucida Grande")
 .geneva
-  font-family: ff(Geneva)
+  font-family: font-family("Geneva")
+  +font-family("Geneva")
 .segoe
-  font-family: ff(Segoe)
+  font-family: font-family("Segoe")
+  +font-family("Segoe")
 .candara
-  font-family: ff(Candara)
+  font-family: font-family("Candara")
+  +font-family("Candara")
 .calibri
-  font-family: ff(Calibri)
+  font-family: font-family("Calibri")
+  +font-family("Calibri")
 .franklin-gothic-medium
-  font-family: ff("Franklin Gothic Medium")
+  font-family: font-family("Franklin Gothic Medium")
+  +font-family("Franklin Gothic Medium")
 .tahoma
-  font-family: ff(Tahoma)
+  font-family: font-family("Tahoma")
+  +font-family("Tahoma")
 
 //
 // Monospace
 //
 
 .monospace
-  font-family: ff(monospace)
+  font-family: font-family(monospace)
+  +font-family(monospace)
+
+//
+// Error handling
+//
+
+.mis-spelled
+  font-family: font-family("Garamonds")
+  +font-family("Garamonds")
+
+.empty-value
+  font-family: font-family()
+  +font-family()
