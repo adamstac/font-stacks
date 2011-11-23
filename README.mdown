@@ -35,6 +35,8 @@ Review [the core Sass file](https://github.com/adamstac/font-stacks/blob/master/
 
 Special thanks to [Amrinder Sandhu](http://amrindersandhu.com/) for his research on web font stacks and article [Revised Font Stacks](http://www.awayback.com/revised-font-stack/). The refactor from [this version](https://github.com/adamstac/bedrock/blob/master/stylesheets/bedrock/typography/text/_font-stacks.scss) as well as the additional support of the various web fonts is largely based on, and because of, his work.
 
+Additional special thanks to my bud [Nathan Smith](http://sonspring.com/) for being an awesome sounding board and for helping me make some decisions that made this project all the more better. Thanks bro!
+
 ## License
 
 Copyright (c) 2011 Adam Stacoviak
