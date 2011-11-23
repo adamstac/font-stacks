@@ -1,0 +1,99 @@
+.garamond {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+.lucida-bright {
+  font-family: "Lucida Bright", Georgia, serif;
+}
+
+.palatino {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.big-caslon {
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
+
+.didot {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.baskerville {
+  font-family: Baskerville, "Baskerville old face", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.hoefler-text {
+  font-family: "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+}
+
+.bodoni-mt {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.goudy-old-style {
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+.constantia {
+  font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+.cambria {
+  font-family: Cambria, Georgia, serif;
+}
+
+.book-antiqua {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+.optima {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+.futura {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.gill-sans {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.trebuchet-ms {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+.helvetica-neue {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+.verdana {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.lucida-grande {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+.geneva {
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+.segoe {
+  font-family: Segoe, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.candara {
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.calibri {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.franklin-gothic-medium {
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+}
+
+.tahoma {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
