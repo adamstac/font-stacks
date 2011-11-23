@@ -14,12 +14,12 @@ The usage is simple. Here's an example:
 
     // Long-form
     .foo {
-      font-family: font-family("Helvetica Neue")
+      font-family: font-family("Helvetica Neue");
     }
 
     // Shorthand
     .foo {
-      font-family: ff("Helvetica Neue")
+      font-family: ff("Helvetica Neue");
     }
 
 As you can see, you simply pass the name of the font-stack to the `font-family()` function or its shorthand counterpart `ff()`. Simple.
