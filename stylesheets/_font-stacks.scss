@@ -65,7 +65,7 @@
 
   // HOEFLER TEXT (88.70% on Mac, 1.16% on Windows)
   @else if $family == "Hoefler Text" {
-    @return "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+    @return "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   }
 
   // LUCIDA BRIGHT (64.90% on Mac, 33.84% on Windows) - huge x-height
