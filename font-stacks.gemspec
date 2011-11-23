@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
 
   # Gem author details
   s.name = "font-stacks"
-  s.description = %q{Sass/Compass extenstion for Sassy access to common web-friendly font-stacks}
-  s.summary = %q{Sass/Compass extenstion that provides Sassy access to common web-friendly font-stacks}
+  s.description = %q{Sass/Compass extension for Sassy access to common web-friendly font-stacks}
+  s.summary = %q{Sass/Compass extension that provides Sass functions to easily use common web-friendly font-stacks}
   s.authors = ["Adam Stacoviak"]
   s.email = ["adam@stacoviak.com"]
   s.homepage = "https://github.com/adamstac/font-stacks"

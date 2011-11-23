@@ -1,14 +1,34 @@
 # Font Stacks
 
-Font Stacks is a work in progress, but feel free to try it out.
+Font Stacks is a Sass/Compass extension that provides Sass functions to easily use common web-friendly font-stacks.
 
 ## Installation
 
-...
+1. `gem install font-stacks`
+2. Add `require 'font-stacks'` in Compass's `config.rb` file
+3. Then `@import font-stacks`
 
 ## Usage
 
-...
+The usage is simple. Here's an example:
+
+    // Long-form
+    .foo {
+      font-family: font-family("Helvetica Neue")
+    }
+
+    // Shorthand
+    .foo {
+      font-family: ff("Helvetica Neue")
+    }
+
+As you can see, you simply pass the name of the font-stack to the `font-family()` function or its shorthand counterpart `ff()`. Simple.
+
+Review [the core Sass file](https://github.com/adamstac/font-stacks/blob/master/stylesheets/_font-stacks.scss) for a full list of supported font-stacks. Feel free to fork and contribute.
+
+## Credits and special thanks
+
+Special thanks to [Amrinder Sandhu](http://amrindersandhu.com/) for his research on web font stacks and article [Revised Font Stacks](http://www.awayback.com/revised-font-stack/). The refactor from [this version](https://github.com/adamstac/bedrock/blob/master/stylesheets/bedrock/typography/text/_font-stacks.scss) as well as the additional support of the various web fonts is largely based on, and because of, his work.
 
 ## License
 

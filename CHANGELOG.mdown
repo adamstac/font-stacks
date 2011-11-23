@@ -1,3 +1,3 @@
-# 1.0.0
+# 0.1.0 - 0.1.2
 
 * Initial version ready for development and testing (likely to be solid enough for 1.0.0)
