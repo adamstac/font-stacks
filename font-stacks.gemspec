@@ -7,11 +7,11 @@ Gem::Specification.new do |s|
 
   # Gem author details
   s.name = "font-stacks"
-  s.description = %q{Compass extension description}
-  s.summary = %q{Compass extension summary}
-  s.authors = ["Author Name"]
-  s.email = ["author@email.com"]
-  s.homepage = "http://font-stacks.com/"
+  s.description = %q{Sass/Compass extenstion for Sassy access to common web-friendly font-stacks}
+  s.summary = %q{Sass/Compass extenstion that provides Sassy access to common web-friendly font-stacks}
+  s.authors = ["Adam Stacoviak"]
+  s.email = ["adam@stacoviak.com"]
+  s.homepage = "https://github.com/adamstac/font-stacks"
 
   # Gem files
   # These are the files that get distributated in the gem
