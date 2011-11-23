@@ -21,6 +21,11 @@ The usage is simple. Here's an example:
     .foo {
       font-family: ff("Helvetica Neue");
     }
+    
+    // Resulting CSS
+    .foo {
+      font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+    }
 
 As you can see, you simply pass the name of the font-stack to the `font-family()` function or its shorthand counterpart `ff()`. Simple.
 
