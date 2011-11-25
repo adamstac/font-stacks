@@ -1,6 +1,6 @@
 # Font Stacks
 
-Font Stacks is a Sass/Compass extension that provides Sass functions to easily use common web-friendly font-stacks.
+Font Stacks is a Sass and Compass font-family library of common web-friendly font stacks.
 
 ## Installation
 
@@ -48,14 +48,124 @@ The usage is simple. Here are two examples:
 
 As you can see, you simply pass the name of the font-stack to the `font-family()` function or its shorthand counterpart `ff()`, or to the `font-family()` mixin or its shorthand counterpart `ff()`. Simple.
 
-Review [Font Stacks function code](https://github.com/adamstac/font-stacks/blob/master/stylesheets/font-stacks/_function.scss) for a full list of supported font-stacks. Feel free to fork and contribute.
-
 ### Defaults
 
 If you'd like to set the default font-family, or override the "Monospace" font-family, I have provided two vars you can set.
 
     $default-font-family
     $default-monospace
+
+## Font Stacks
+
+### Serif
+
+**Baskerville**, *(88.60% on Mac, 49.10% on Windows)*
+
+    Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif
+
+**Big Caslon**, *(85.10% on Mac)*
+
+    "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif
+
+**Bodoni MT**, *(47.89% on Windows)*
+
+    "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif
+
+**Book Antiqua**, *(86.09% on Mac)*
+
+    "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif
+
+**Cambria**, *(54.51% on Windows)*
+
+    Cambria, Georgia, serif
+
+**Constantia**, *(53.81% on Windows)*
+
+    Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif
+
+**Didot**, *(87.72% on Mac)*
+
+    Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif
+
+**Garamond**, *(23.84% on Mac, 86.24% on Windows)*
+
+    Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif
+
+**Goudy Old Style**, *(51.30% on Windows)*
+
+    "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif
+
+**Hoefler Text**, *(88.70% on Mac, 1.16% on Windows)*
+
+    "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif
+
+**Lucida Bright**, *(64.90% on Mac, 33.84% on Windows, huge x-height)*
+
+    "Lucida Bright", Georgia, serif
+
+**Palatino**, *(79.71% on Mac, 98.04% on Windows)*
+
+    Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif
+
+### Sans-serif
+
+**Calibri**, *(54.76% on Windows)*
+
+    Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif
+
+**Candara**, *(54.31% on Windows)*
+
+    Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif
+
+**Franklin Gothic Medium**, *(97.89% on Windows)*
+
+    "Franklin Gothic Medium", Arial, sans-serif
+
+**Futura**, *(91.01% on Mac)*
+
+    Futura, "Trebuchet MS", Arial, sans-serif
+
+**Geneva**, *(98.84% on Mac)*
+
+    Geneva, Tahoma, Verdana, sans-serif
+
+**Gill Sans**, *(91.52% on Mac, 51.74% on Windows)*
+
+    "Gill Sans", "Gill Sans MT", Calibri, sans-serif
+
+**Helvetica Neue ~ Helvetica**, *(94.74% on Mac)*
+
+    "Helvetica Neue", Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif
+
+**Lucida Grande**, *(99.13% on Mac, 98.25% on Windows)*
+
+    "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif
+
+**Optima**, *(90.14% on Mac)*
+
+    Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif
+
+**Segoe**, *(45.04% on Windows)*
+
+    Segoe, "Segoe UI", "Helvetica Neue", Arial, sans-serif
+
+**Tahoma**, *(99.30% on Windows)*
+
+    Tahoma, Geneva, Verdana, sans-serif
+
+**Trebuchet MS**, *(94.20% on Mac, 99% on Windows)*
+
+    "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif
+
+**Verdana**, (96.81% on Mac, 99.40% on Windows)
+
+    Verdana, Geneva, sans-serif
+
+### Monospace
+
+The default Monospace font stack.
+
+    "DejaVu Sans Mono", Menlo, Monaco, Consolas, Courier, monospace
 
 ## Credits and special thanks
 

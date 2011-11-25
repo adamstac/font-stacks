@@ -12,6 +12,8 @@ GEM
     css_parser (1.2.5)
       addressable
     fssm (0.2.7)
+    grid-coordinates (1.2.0)
+      compass (>= 0.11.5)
     haml (3.1.3)
     heroku (2.7.0)
       launchy (>= 0.3.2)
@@ -32,7 +34,7 @@ GEM
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rubyzip (0.9.4)
-    sass (3.1.7)
+    sass (3.1.10)
     serve (1.5.1)
       activesupport (~> 3.0)
       i18n
@@ -51,6 +53,7 @@ PLATFORMS
 DEPENDENCIES
   compass (~> 0.11.5)
   css_parser (~> 1.2.5)
+  grid-coordinates
   haml (~> 3.1.3)
   heroku
   maruku (~> 0.6.0)

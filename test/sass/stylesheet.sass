@@ -1,7 +1,51 @@
 // $default-monospace: Menlo, "DejaVu Sans Mono", Monaco, Consolas, Courier, monospace
 
+@import compass/reset
+
 // Compass extension
 @import "../../stylesheets/font-stacks"
+@import "grid-coordinates"
+
+.grid-container
+  +grid-container
+
+.grid-full
+  +grid-full
+  
+h1
+  +font-family("Gill Sans")
+  font-size: 28px
+  font-weight: bold
+  letter-spacing: -1px
+  text-transform: uppercase
+  margin: 75px 0
+
+.family
+  border-bottom: 3px dashed #aaa
+  font-size: 26px
+  margin-bottom: 70px
+  padding-bottom: 70px
+
+.super-size
+  font-size: 110px
+  margin-top: 30px
+
+.base
+  line-height: 1.5
+  font-size: 30px
+  margin-bottom: 0
+
+.normal
+  @extend .base
+  font-weight: normal
+
+.bold
+  @extend .base
+  font-weight: bold
+
+.italic
+  @extend .base
+  font-style: italic
 
 //
 // Serif
