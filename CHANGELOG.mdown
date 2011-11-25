@@ -1,3 +1,13 @@
+# 0.1.4
+
+* [NEW] Added vars for setting the default sans-serif, serif and monospace.
+* [NEW] Added `@warn` for when the fail safe gets triggered, defaults to $default-sans-serif.
+* [NEW] Can now access defaults by passing "sans-serif", "serif", or "monospace".
+* [NEW] Cleaned up the tests and gave the test view some style.
+* [NEW] Added support for Times New Roman.
+* [CHANGED] Better documentation in the readme on the font stacks supported.
+* [CHANGED] DRY'd up the mixin.
+
 # 0.1.3
 
 * [NEW] Added $default-monospace var to override the default monospace.
