@@ -54,6 +54,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+body {
+  border-top: 6px solid black;
+}
+
 .grid-container {
   zoom: 1;
   margin-right: auto;
@@ -75,7 +79,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 .grid-full {
-  width: 940px;
+  width: 620px;
   zoom: 1;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -86,6 +90,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   position: relative;
   margin-right: 10px;
   margin-left: 10px;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 .grid-full:before, .grid-full:after {
   content: ".";
@@ -106,26 +112,45 @@ h1 {
   font-size: 28px;
   font-weight: bold;
   letter-spacing: -1px;
-  text-transform: uppercase;
   margin: 75px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.on-dark, .family.dark {
+  background: black;
+  color: white;
+}
+
+.on-light, .family {
+  background: #f0f0f0;
+  color: black;
 }
 
 .family {
-  border-bottom: 3px dashed #aaaaaa;
   font-size: 26px;
   margin-bottom: 70px;
-  padding-bottom: 70px;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.font-family {
+  font-size: 30px;
+  margin-bottom: 25px;
 }
 
 .super-size {
-  font-size: 110px;
+  font-size: 70px;
+  line-height: 1.25;
   margin-top: 30px;
+  white-space: nowrap;
 }
 
 .base, .normal, .bold, .italic {
   line-height: 1.5;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 0;
+  white-space: nowrap;
 }
 
 .normal {

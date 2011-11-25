@@ -6,34 +6,58 @@
 @import "../../stylesheets/font-stacks"
 @import "grid-coordinates"
 
+body
+  border-top: 6px solid #000
+
 .grid-container
   +grid-container
 
 .grid-full
-  +grid-full
+  +grid(8)
+  +grid-prefix(2)
+  +grid-suffix(2)
   
 h1
   +font-family("Gill Sans")
   font-size: 28px
   font-weight: bold
   letter-spacing: -1px
-  text-transform: uppercase
   margin: 75px 0
+  text-align: center
+  text-transform: uppercase
+
+.on-dark
+  background: #000
+  color: #fff
+
+.on-light
+  background: #f0f0f0
+  color: #000
 
 .family
-  border-bottom: 3px dashed #aaa
+  @extend .on-light
   font-size: 26px
   margin-bottom: 70px
-  padding-bottom: 70px
+  overflow: hidden
+  padding: 40px
+  &.dark
+    @extend .on-dark
+
+.font-family
+  font-size: 30px
+  margin-bottom: 25px
 
 .super-size
-  font-size: 110px
+  font-size: 70px
+  line-height: 1.25
   margin-top: 30px
+  white-space: nowrap
 
 .base
   line-height: 1.5
-  font-size: 30px
+  font-size: 20px
   margin-bottom: 0
+  white-space: nowrap
 
 .normal
   @extend .base
