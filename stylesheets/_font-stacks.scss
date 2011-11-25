@@ -12,8 +12,15 @@
 //    Avoid using Helvetica or Helvetica Neue for body text, especially below 14px.
 //    Futura, Gill Sans and Franklin Gothic Medium should be carefully stacked and used because of their unusual weight.
 
-$default-font-family: "Helvetica" !default;
+// Default fonts
+$default-sans-serif: "Helvetica" !default;
+$default-serif: "Georgia" !default;
 $default-monospace: false !default;
+
+// Fail-safe
+$default-font-family: $default-sans-serif !default;
+
+// The 'family' var
 $family: $default-font-family !default;
 
 @import "font-stacks/function";

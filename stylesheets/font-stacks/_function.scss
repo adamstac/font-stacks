@@ -4,6 +4,10 @@
   // Serif
   //
 
+  @if $family == "serif" {
+    @return font-family($default-serif);
+  }
+
   @if $family == "Baskerville" {
     @return Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   }
@@ -52,9 +56,21 @@
     @return Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   }
 
+  @else if $family == "Times New Roman" {
+    @return "Times New Roman", Times, serif;
+  }
+  
+  @else if $family == "Times" {
+    @return font-family("Times New Roman");
+  }
+
   //
   // Sans-serif
   //
+
+  @if $family == "sans-serif" {
+    @return font-family($default-sans-serif);
+  }
 
   @else if $family == "Calibri" {
     @return Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -117,18 +133,13 @@
   // Monospace
   //
   
-  @else if $family == "Monospace" {
+  @else if $family == "monospace" {
     @if $default-monospace {
       @return $default-monospace;
     }
     @else {
       @return "DejaVu Sans Mono", Menlo, Monaco, Consolas, Courier, monospace;
     }
-  }
-
-  // Alias to "Monospace"
-  @else if $family == "monospace" {
-    @return font-family("Monospace");
   }
  
   //

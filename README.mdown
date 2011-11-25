@@ -48,12 +48,63 @@ The usage is simple. Here are two examples:
 
 As you can see, you simply pass the name of the font-stack to the `font-family()` function or its shorthand counterpart `ff()`, or to the `font-family()` mixin or its shorthand counterpart `ff()`. Simple.
 
-### Defaults
+## Default Variables
 
-If you'd like to set the default font-family, or override the "Monospace" font-family, I have provided two vars you can set.
+If you'd like to set the default font-family, override the monospace font-family or set the default sans-serif or serif fonts, I have provided a few variables you can set.
 
-    $default-font-family
-    $default-monospace
+### Default Sans-serif
+
+By default, `$default-sans-serif` is set to "Helvetica".
+
+    $default-sans-serif: "Helvetica"
+    
+You can set this variable to another available font, such as "Verdana". Here's an example:
+
+    $default-sans-serif: "Verdana"
+
+Then you can simply pass "sans-serif" to the `font-family()` function or mixin to use your default sans-serif font stack.
+
+    .foo {
+      +font-family(sans-serif)
+    }
+
+### Default Serif
+
+By default, `$default-serif` is set to "Georgia".
+
+    $default-sans-serif: "Georgia"
+    
+You can set this variable to another available font, such as "Times". Here's an example:
+
+    $default-sans-serif: "Times"
+
+Then you can simply pass "serif" to the `font-family()` function or mixin to use your default serif font stack.
+
+    .foo {
+      +font-family(serif)
+    }
+
+### Default Monospace
+
+The monospace font stack hasn't gotten as much thought or love yet, but by default, the monospace font stack is set to:
+
+    "DejaVu Sans Mono", Menlo, Monaco, Consolas, Courier, monospace
+
+If you'd like to override this, set `$default-monospace` to the stack you'd prefer. For example:
+
+    $default-monospace: "Anonymous Pro", Menlo, Monaco, Consolas, Courier, monospace
+
+You continue to pass "monospace" to the `font-family()` function or mixin to use your default monospace font stack.
+
+    .foo {
+      +font-family(monospace)
+    }
+
+### Default font-family
+
+By default `$default-font-family` is set to `$default-sans-serif`. This needs to have a value to always return a font stack, even if you mis-spell or something isn't right. I'd rather return your default instead of nothing.
+
+    $default-font-family: $default-sans-serif
 
 ## Font Stacks
 
@@ -106,6 +157,10 @@ If you'd like to set the default font-family, or override the "Monospace" font-f
 **Palatino**, *(79.71% on Mac, 98.04% on Windows)*
 
     Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif
+
+**Times New Roman**, *(100% on Mac, 100% on Windows)*
+
+    "Times New Roman", Times, serif
 
 ### Sans-serif
 
