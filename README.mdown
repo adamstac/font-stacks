@@ -158,7 +158,7 @@ By default `$default-font-family` is set to `$default-sans-serif`. This needs to
 
     Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif
 
-**Times New Roman**, *(100% on Mac, 100% on Windows)*
+**Times New Roman ~ Times**, *(100% on Mac, 100% on Windows)*
 
     "Times New Roman", Times, serif
 
@@ -218,7 +218,7 @@ By default `$default-font-family` is set to `$default-sans-serif`. This needs to
 
 ### Monospace
 
-The default Monospace font stack.
+Default Monospace font stack. Override by setting `$default-monospace`.
 
     "DejaVu Sans Mono", Menlo, Monaco, Consolas, Courier, monospace
 

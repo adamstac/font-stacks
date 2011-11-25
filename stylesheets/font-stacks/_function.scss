@@ -60,6 +60,7 @@
     @return "Times New Roman", Times, serif;
   }
   
+  // Alias to "Times New Roman"
   @else if $family == "Times" {
     @return font-family("Times New Roman");
   }
