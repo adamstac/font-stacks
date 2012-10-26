@@ -1,7 +1,9 @@
-@mixin font-family($family) {
+@mixin font-family($family, $weight: normal) {
   font-family: font-family($family);
+  font-weight: $weight;
 }
 
-@mixin ff($family) {
+@mixin ff($family, $weight: normal) {
   @include font-family($family);
+  font-weight: $weight;
 }
